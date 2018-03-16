@@ -1,4 +1,48 @@
 /*
+    font-size
+    ---
+    @font-face declarations
+*/
+
+@font-face {
+    font-family: "Inter-UI";
+    font-weight: 400;
+    src: url("../Fonts/Inter-UI-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter-UI";
+    font-weight: 700;
+    src: url("../Fonts/Inter-UI-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Droid Serif";
+    font-weight: 400;
+    src: url("../Fonts/DroidSerif-Regular-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Droid Serif";
+    font-weight: 400;
+    src: url("../Fonts/DroidSerif-Italic-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Droid Serif";
+    font-weight: 700;
+    font-style: italic;
+    src: url("../Fonts/DroidSerif-Bold-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Droid Serif";
+    font-weight: 700;
+    font-style: italic;
+    src: url("../Fonts/DroidSerif-BoldItalic-webfont.woff") format("woff");
+}
+
+/*
     Elements: Page
     ---
     Default markup for page level elements
@@ -7,7 +51,7 @@
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-family: "Droid Serif", Georgia, serif;
     color: #5C6366;
     padding: 48px 24px 24px;
 }
@@ -55,6 +99,7 @@ img {
 
 h1, h2, h3 {
     color: #17191A;
+    font-family: "Inter-UI", serif;
 }
 
 h1 {
